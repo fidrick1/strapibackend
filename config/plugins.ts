@@ -4,7 +4,7 @@ export default ({ env }) => ({
       jwtSecret: env('JWT_SECRET'),
     },
   },
-  upload: {
+ /*  upload: {
     config: {
       provider: 'cloudinary',
       providerOptions: {
@@ -13,5 +13,5 @@ export default ({ env }) => ({
         api_secret: env('CLOUDINARY_SECRET'),
       },
     },
-  },
+  },*/
 });
